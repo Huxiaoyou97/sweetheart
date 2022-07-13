@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "@sweetheart-design/ui": ["./sweetheart-design-ui"]
+        },
+        "types": ["./sweetheart-design-ui/types/global.d.ts"]
+    },
+    "include": ["**/*", ".vitepress/**/*"],
+    "exclude": ["node_modules"]
+}

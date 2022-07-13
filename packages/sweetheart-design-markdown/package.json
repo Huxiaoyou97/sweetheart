@@ -1,0 +1,10 @@
+{
+    "name": "@sweetheart-design/markdown",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "highlight.js": "^10.7.2",
+        "markdown-it": "^12.0.2"
+    }
+}
