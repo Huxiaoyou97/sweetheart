@@ -42,23 +42,6 @@ export const _${bigCamelizeName}Component = ${bigCamelizeName}
 export default ${bigCamelizeName}
 `
 
-    const testsTemplate = `\
-import example from '../example'
-import ${bigCamelizeName} from '..'
-import { createApp } from 'vue'
-import { mount } from '@vue/test-utils'
-
-test('test ${name} example', () => {
-  const wrapper = mount(example)
-  expect(wrapper.html()).toMatchSnapshot()
-})
-
-test('test ${name} plugin', () => {
-  const app = createApp({}).use(${bigCamelizeName})
-  expect(app.component(${bigCamelizeName}.name)).toBeTruthy()
-})
-`
-
     const exampleTemplate = `\
 <template>
   <app-type></app-type>
@@ -67,7 +50,6 @@ test('test ${name} plugin', () => {
 
 <script>
 import ${bigCamelizeName} from '..'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
 import { watchLang } from '@varlet/cli/site/utils'
 import { use, pack } from './locale'
 
@@ -75,7 +57,6 @@ export default {
   name: '${bigCamelizeName}Example',
   components: {
     [${bigCamelizeName}.name]: ${bigCamelizeName},
-    AppType
   },
   setup() {
 
@@ -135,7 +116,6 @@ export default {
     await Promise.all([
         outputFile(resolve(componentDir, `${bigCamelizeName}.vue`), vueTemplate),
         outputFile(resolve(componentDir, 'index.ts'), indexTemplate),
-        outputFile(resolve(testsDir, 'index.spec.js'), testsTemplate),
         outputFile(resolve(exampleDir, 'index.vue'), exampleTemplate),
         outputFile(resolve(exampleLocalDir, 'index.ts'), localeIndexTemplate),
         outputFile(resolve(exampleLocalDir, 'en-US.ts'), localTemplate),

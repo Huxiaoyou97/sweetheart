@@ -18,7 +18,7 @@ export default define<Theme>({
     Layout: VPApp,
     enhanceApp: ({app}) => {
         // @ts-ignore
-        // app.use(sweetheartDesign)
+        app.use(sweetheartDesign)
 
         globals.forEach(([name, Comp]) => {
             // @ts-ignore

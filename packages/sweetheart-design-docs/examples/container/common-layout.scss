@@ -1,0 +1,31 @@
+.common-layout {
+    .s-header,
+    .s-footer,
+    .s-main,
+    .s-aside {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .s-header,
+    .s-footer {
+        background-color: rgba(128, 128, 128, 0.2);
+        color: #303133;
+        text-align: center;
+    }
+
+    .s-aside {
+        background-color: rgba(128, 128, 128, 0.3);
+        color: #303133;
+        text-align: center;
+    }
+
+    .s-main {
+        background-color: rgba(128, 128, 128, 0.4);
+        color: #303133;
+        text-align: center;
+
+        height: 150px;
+    }
+}

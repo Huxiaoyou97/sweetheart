@@ -291,125 +291,125 @@ template {
 @charset "UTF-8";
 :root {
     color-scheme: light;
-    --xb-color-white: #ffffff;
-    --xb-color-black: #000000;
-    --xb-color-primary: #409eff;
-    --xb-color-primary-rgb: 64, 158, 255;
-    --xb-color-success-rgb: 103, 194, 58;
-    --xb-color-warning-rgb: 230, 162, 60;
-    --xb-color-danger-rgb: 245, 108, 108;
-    --xb-color-error-rgb: 245, 108, 108;
-    --xb-color-info-rgb: 144, 147, 153;
-    --xb-color-primary-light-1: #53a8ff;
-    --xb-color-primary-light-2: #66b1ff;
-    --xb-color-primary-light-3: #79bbff;
-    --xb-color-primary-light-4: #8cc5ff;
-    --xb-color-primary-light-5: #a0cfff;
-    --xb-color-primary-light-6: #b3d8ff;
-    --xb-color-primary-light-7: #c6e2ff;
-    --xb-color-primary-light-8: #d9ecff;
-    --xb-color-primary-light-9: #ecf5ff;
-    --xb-color-primary-dark-2: #337ecc;
-    --xb-color-success: #67c23a;
-    --xb-color-success-light-3: #95d475;
-    --xb-color-success-light-5: #b3e19d;
-    --xb-color-success-light-7: #d1edc4;
-    --xb-color-success-light-8: #e1f3d8;
-    --xb-color-success-light-9: #f0f9eb;
-    --xb-color-success-dark-2: #529b2e;
-    --xb-color-warning: #e6a23c;
-    --xb-color-warning-light-3: #eebe77;
-    --xb-color-warning-light-5: #f3d19e;
-    --xb-color-warning-light-7: #f8e3c5;
-    --xb-color-warning-light-8: #faecd8;
-    --xb-color-warning-light-9: #fdf6ec;
-    --xb-color-warning-dark-2: #b88230;
-    --xb-color-danger: #f56c6c;
-    --xb-color-danger-light-3: #f89898;
-    --xb-color-danger-light-5: #fab6b6;
-    --xb-color-danger-light-7: #fcd3d3;
-    --xb-color-danger-light-8: #fde2e2;
-    --xb-color-danger-light-9: #fef0f0;
-    --xb-color-danger-dark-2: #c45656;
-    --xb-color-error: #f56c6c;
-    --xb-color-error-light-3: #f89898;
-    --xb-color-error-light-5: #fab6b6;
-    --xb-color-error-light-7: #fcd3d3;
-    --xb-color-error-light-8: #fde2e2;
-    --xb-color-error-light-9: #fef0f0;
-    --xb-color-error-dark-2: #c45656;
-    --xb-color-info: #909399;
-    --xb-color-info-light-3: #b1b3b8;
-    --xb-color-info-light-5: #c8c9cc;
-    --xb-color-info-light-7: #dedfe0;
-    --xb-color-info-light-8: #e9e9eb;
-    --xb-color-info-light-9: #f4f4f5;
-    --xb-color-info-dark-2: #73767a;
-    --xb-bg-color: #ffffff;
-    --xb-bg-color-page: #ffffff;
-    --xb-bg-color-overlay: #ffffff;
-    --xb-text-color-primary: #303133;
-    --xb-text-color-regular: #606266;
-    --xb-text-color-secondary: #909399;
-    --xb-text-color-placeholder: #a8abb2;
-    --xb-text-color-disabled: #c0c4cc;
-    --xb-border-color: #dcdfe6;
-    --xb-border-color-light: #e4e7ed;
-    --xb-border-color-lighter: #ebeef5;
-    --xb-border-color-extra-light: #f2f6fc;
-    --xb-border-color-dark: #d4d7de;
-    --xb-border-color-darker: #cdd0d6;
-    --xb-fill-color: #f0f2f5;
-    --xb-fill-color-light: #f5f7fa;
-    --xb-fill-color-lighter: #fafafa;
-    --xb-fill-color-extra-light: #fafcff;
-    --xb-fill-color-dark: #ebedf0;
-    --xb-fill-color-darker: #e6e8eb;
-    --xb-fill-color-blank: #ffffff;
-    --xb-border-radius-base: 4px;
-    --xb-border-radius-small: 2px;
-    --xb-border-radius-round: 20px;
-    --xb-border-radius-circle: 100%;
-    --xb-font-size-extra-large: 20px;
-    --xb-font-size-large: 18px;
-    --xb-font-size-medium: 16px;
-    --xb-font-size-base: 14px;
-    --xb-font-size-small: 13px;
-    --xb-font-size-extra-small: 12px;
-    --xb-box-shadow-base: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
-    --xb-box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, .1);
-    --xb-disabled-bg-color: var(--xb-fill-color-light);
-    --xb-disabled-text-color: var(--xb-text-color-placeholder);
-    --xb-disabled-border-color: var(--xb-border-color-light);
-    --xb-index-normal: 1;
-    --xb-index-top: 1000;
-    --xb-index-popper: 2000;
-    --xb-border-width: 1px;
-    --xb-border-style: solid;
-    --xb-border-color-hover: var(--xb-text-color-placeholder);
-    --xb-border: var(--xb-border-width) var(--xb-border-style) var(--xb-border-color);
-    --xb-svg-monochrome-grey: #dcdde0;
-    --xb-font-weight-primary: 500;
-    --xb-font-line-height-primary: 24px;
-    --xb-transition-duration: .3s;
-    --xb-transition-duration-fast: .2s;
-    --xb-transition-function-ease-in-out-bezier: cubic-bezier(.645, .045, .355, 1);
-    --xb-transition-function-fast-bezier: cubic-bezier(.23, 1, .32, 1);
-    --xb-transition-all: all var(--xb-transition-duration) var(--xb-transition-function-ease-in-out-bezier);
-    --xb-transition-fade: opacity var(--xb-transition-duration) var(--xb-transition-function-fast-bezier);
-    --xb-transition-md-fade: transform var(--xb-transition-duration) var(--xb-transition-function-fast-bezier), opacity var(--xb-transition-duration) var(--xb-transition-function-fast-bezier);
-    --xb-transition-fade-linear: opacity var(--xb-transition-duration-fast) linear;
-    --xb-transition-border: border-color var(--xb-transition-duration-fast) var(--xb-transition-function-ease-in-out-bezier);
-    --xb-transition-box-shadow: box-shadow var(--xb-transition-duration-fast) var(--xb-transition-function-ease-in-out-bezier);
-    --xb-transition-color: color var(--xb-transition-duration-fast) var(--xb-transition-function-ease-in-out-bezier);
-    --xb-popup-modal-bg-color: var(--xb-color-black);
-    --xb-popup-modal-opacity: .5;
-    --xb-loading-spinner-size: 42px;
-    --xb-loading-fullscreen-spinner-size: 50px
+    --s-color-white: #ffffff;
+    --s-color-black: #000000;
+    --s-color-primary: #409eff;
+    --s-color-primary-rgb: 64, 158, 255;
+    --s-color-success-rgb: 103, 194, 58;
+    --s-color-warning-rgb: 230, 162, 60;
+    --s-color-danger-rgb: 245, 108, 108;
+    --s-color-error-rgb: 245, 108, 108;
+    --s-color-info-rgb: 144, 147, 153;
+    --s-color-primary-light-1: #53a8ff;
+    --s-color-primary-light-2: #66b1ff;
+    --s-color-primary-light-3: #79bbff;
+    --s-color-primary-light-4: #8cc5ff;
+    --s-color-primary-light-5: #a0cfff;
+    --s-color-primary-light-6: #b3d8ff;
+    --s-color-primary-light-7: #c6e2ff;
+    --s-color-primary-light-8: #d9ecff;
+    --s-color-primary-light-9: #ecf5ff;
+    --s-color-primary-dark-2: #337ecc;
+    --s-color-success: #67c23a;
+    --s-color-success-light-3: #95d475;
+    --s-color-success-light-5: #b3e19d;
+    --s-color-success-light-7: #d1edc4;
+    --s-color-success-light-8: #e1f3d8;
+    --s-color-success-light-9: #f0f9eb;
+    --s-color-success-dark-2: #529b2e;
+    --s-color-warning: #e6a23c;
+    --s-color-warning-light-3: #eebe77;
+    --s-color-warning-light-5: #f3d19e;
+    --s-color-warning-light-7: #f8e3c5;
+    --s-color-warning-light-8: #faecd8;
+    --s-color-warning-light-9: #fdf6ec;
+    --s-color-warning-dark-2: #b88230;
+    --s-color-danger: #f56c6c;
+    --s-color-danger-light-3: #f89898;
+    --s-color-danger-light-5: #fab6b6;
+    --s-color-danger-light-7: #fcd3d3;
+    --s-color-danger-light-8: #fde2e2;
+    --s-color-danger-light-9: #fef0f0;
+    --s-color-danger-dark-2: #c45656;
+    --s-color-error: #f56c6c;
+    --s-color-error-light-3: #f89898;
+    --s-color-error-light-5: #fab6b6;
+    --s-color-error-light-7: #fcd3d3;
+    --s-color-error-light-8: #fde2e2;
+    --s-color-error-light-9: #fef0f0;
+    --s-color-error-dark-2: #c45656;
+    --s-color-info: #909399;
+    --s-color-info-light-3: #b1b3b8;
+    --s-color-info-light-5: #c8c9cc;
+    --s-color-info-light-7: #dedfe0;
+    --s-color-info-light-8: #e9e9eb;
+    --s-color-info-light-9: #f4f4f5;
+    --s-color-info-dark-2: #73767a;
+    --s-bg-color: #ffffff;
+    --s-bg-color-page: #ffffff;
+    --s-bg-color-overlay: #ffffff;
+    --s-text-color-primary: #303133;
+    --s-text-color-regular: #606266;
+    --s-text-color-secondary: #909399;
+    --s-text-color-placeholder: #a8abb2;
+    --s-text-color-disabled: #c0c4cc;
+    --s-border-color: #dcdfe6;
+    --s-border-color-light: #e4e7ed;
+    --s-border-color-lighter: #ebeef5;
+    --s-border-color-extra-light: #f2f6fc;
+    --s-border-color-dark: #d4d7de;
+    --s-border-color-darker: #cdd0d6;
+    --s-fill-color: #f0f2f5;
+    --s-fill-color-light: #f5f7fa;
+    --s-fill-color-lighter: #fafafa;
+    --s-fill-color-extra-light: #fafcff;
+    --s-fill-color-dark: #ebedf0;
+    --s-fill-color-darker: #e6e8eb;
+    --s-fill-color-blank: #ffffff;
+    --s-border-radius-base: 4px;
+    --s-border-radius-small: 2px;
+    --s-border-radius-round: 20px;
+    --s-border-radius-circle: 100%;
+    --s-font-size-extra-large: 20px;
+    --s-font-size-large: 18px;
+    --s-font-size-medium: 16px;
+    --s-font-size-base: 14px;
+    --s-font-size-small: 13px;
+    --s-font-size-extra-small: 12px;
+    --s-box-shadow-base: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+    --s-box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, .1);
+    --s-disabled-bg-color: var(--s-fill-color-light);
+    --s-disabled-text-color: var(--s-text-color-placeholder);
+    --s-disabled-border-color: var(--s-border-color-light);
+    --s-index-normal: 1;
+    --s-index-top: 1000;
+    --s-index-popper: 2000;
+    --s-border-width: 1px;
+    --s-border-style: solid;
+    --s-border-color-hover: var(--s-text-color-placeholder);
+    --s-border: var(--s-border-width) var(--s-border-style) var(--s-border-color);
+    --s-svg-monochrome-grey: #dcdde0;
+    --s-font-weight-primary: 500;
+    --s-font-line-height-primary: 24px;
+    --s-transition-duration: .3s;
+    --s-transition-duration-fast: .2s;
+    --s-transition-function-ease-in-out-bezier: cubic-bezier(.645, .045, .355, 1);
+    --s-transition-function-fast-bezier: cubic-bezier(.23, 1, .32, 1);
+    --s-transition-all: all var(--s-transition-duration) var(--s-transition-function-ease-in-out-bezier);
+    --s-transition-fade: opacity var(--s-transition-duration) var(--s-transition-function-fast-bezier);
+    --s-transition-md-fade: transform var(--s-transition-duration) var(--s-transition-function-fast-bezier), opacity var(--s-transition-duration) var(--s-transition-function-fast-bezier);
+    --s-transition-fade-linear: opacity var(--s-transition-duration-fast) linear;
+    --s-transition-border: border-color var(--s-transition-duration-fast) var(--s-transition-function-ease-in-out-bezier);
+    --s-transition-box-shadow: box-shadow var(--s-transition-duration-fast) var(--s-transition-function-ease-in-out-bezier);
+    --s-transition-color: color var(--s-transition-duration-fast) var(--s-transition-function-ease-in-out-bezier);
+    --s-popup-modal-bg-color: var(--s-color-black);
+    --s-popup-modal-opacity: .5;
+    --s-loading-spinner-size: 42px;
+    --s-loading-fullscreen-spinner-size: 50px
 }
 
 .fade-in-linear-enter-active, .fade-in-linear-leave-active {
-    transition: var(--xb-transition-fade-linear)
+    transition: var(--s-transition-fade-linear)
 }
 
 .fade-in-linear-enter-from, .fade-in-linear-leave-to {
@@ -422,22 +422,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
-    --text-color: var(--xb-text-color-primary);
-    --text-color-light: var(--xb-text-color-regular);
-    --text-color-lighter: var(--xb-text-color-secondary);
-    --brand-color: var(--xb-color-primary);
-    --brand-color-light: var(--xb-color-primary-light-1);
-    --bg-brand-color: var(--xb-color-primary-light-9);
-    --bg-color: var(--xb-bg-color);
+    --text-color: var(--s-text-color-primary);
+    --text-color-light: var(--s-text-color-regular);
+    --text-color-lighter: var(--s-text-color-secondary);
+    --brand-color: var(--s-color-primary);
+    --brand-color-light: var(--s-color-primary-light-1);
+    --bg-brand-color: var(--s-color-primary-light-9);
+    --bg-color: var(--s-bg-color);
     --bg-color-soft: #fafafa;
     --bg-color-mute: #f2f2f2;
-    --border-color: var(--xb-border-color);
-    --border-color-light: var(--xb-border-color-lighter);
+    --border-color: var(--s-border-color);
+    --border-color-light: var(--s-border-color-lighter);
     --font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --font-family-mono: "JetBrains Mono", source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-    --success-color: var(--xb-color-success);
-    --warning-color: var(--xb-color-warning);
-    --danger-color: var(--xb-color-danger);
+    --success-color: var(--s-color-success);
+    --warning-color: var(--s-color-warning);
+    --danger-color: var(--s-color-danger);
     --header-height: 55px;
     --nav-height: 55px;
     --vp-screen-max-width: 1376px;
@@ -452,15 +452,15 @@ h1, h2, h3, h4, h5, h6 {
     --sidebar-z-index: 40;
     --overlay-z-index: 30;
     --code-line-height: 1.4;
-    --code-font-size: var(--xb-font-size-base);
-    --code-bg-color: var(--xb-fill-color-light);
+    --code-font-size: var(--s-font-size-base);
+    --code-bg-color: var(--s-fill-color-light);
     --code-text-color: var(--text-color);
     --code-font-family: var(--font-family-mono);
     --docsearch-primary-color: var(--brand-color);
-    --docsearch-searchbox-background: var(--xb-bg-color);
-    --block-tip-bg-color: rgba(var(--xb-color-primary-rgb), .1);
-    --block-warning-bg-color: rgba(var(--xb-color-danger-rgb), .1);
-    --link-active-bg-color: rgba(var(--xb-color-primary-rgb), .1);
+    --docsearch-searchbox-background: var(--s-bg-color);
+    --block-tip-bg-color: rgba(var(--s-color-primary-rgb), .1);
+    --block-warning-bg-color: rgba(var(--s-color-danger-rgb), .1);
+    --link-active-bg-color: rgba(var(--s-color-primary-rgb), .1);
     --prism-scheme: light;
     --prism-foreground: #6e6e6e;
     --prism-background: #f4f4f4;
@@ -533,7 +533,7 @@ h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
     background: var(--bg-color-mute);
     cursor: pointer;
-    transition: border-color var(--xb-transition-duration), background-color var(--xb-transition-duration)
+    transition: border-color var(--s-transition-duration), background-color var(--s-transition-duration)
 }
 
 .switch:hover {
@@ -548,7 +548,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--bg-color);
     transform: translate(0);
     color: var(--text-color-light);
-    transition: border-color var(--xb-transition-duration), background-color var(--xb-transition-duration), transform var(--xb-transition-duration)
+    transition: border-color var(--s-transition-duration), background-color var(--s-transition-duration), transform var(--s-transition-duration)
 }
 
 .dark .switch__action {
@@ -579,7 +579,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
     height: 2px;
     margin: 2px 0;
-    transition: var(--xb-transition-all);
+    transition: var(--s-transition-all);
     width: 100%
 }
 
@@ -770,7 +770,7 @@ li > ul, li > ol {
 
 blockquote {
     margin: 1rem 0;
-    border-left: .2rem solid var(--xb-border-color);
+    border-left: .2rem solid var(--s-border-color);
     padding: .25rem 0 .25rem 1rem;
     font-size: 1rem;
     color: var(--text-color-lighter)
@@ -801,7 +801,7 @@ form {
     padding: 8px 16px;
     background-color: var(--block-tip-bg-color);
     border-radius: 4px;
-    border-left: 5px solid var(--xb-color-primary);
+    border-left: 5px solid var(--s-color-primary);
     margin: 20px 0
 }
 
@@ -809,7 +809,7 @@ form {
     padding: 8px 16px;
     background-color: var(--block-warning-bg-color);
     border-radius: 4px;
-    border-left: 5px solid var(--xb-color-danger);
+    border-left: 5px solid var(--s-color-danger);
     margin: 20px 0
 }
 
@@ -1094,7 +1094,7 @@ html.dark {
     --prism-function: #82aaff;
     --prism-deleted: #bc6066;
     --prism-class: #54b1bf;
-    --prism-builtin: var(--xb-color-primary-light-3);
+    --prism-builtin: var(--s-color-primary-light-3);
     --prism-property: #c792ea;
     --prism-namespace: #db889a;
     --prism-punctuation: #89ddff;
@@ -1232,7 +1232,7 @@ div[class*=language-].line-numbers-mode {
 .navbar-wrapper {
     background-color: var(--bg-color);
     color: var(--text-color);
-    transition: border-color var(--xb-transition-duration), background-color var(--xb-transition-duration);
+    transition: border-color var(--s-transition-duration), background-color var(--s-transition-duration);
     position: relative;
     border-bottom: 1px solid var(--border-color);
     padding: 0 12px 0 24px;
@@ -1299,7 +1299,7 @@ div[class*=language-].line-numbers-mode {
 }
 
 * {
-    scrollbar-color: var(--xb-scrollbar-bg-color) var(--xb-fill-color-light)
+    scrollbar-color: var(--s-scrollbar-bg-color) var(--s-fill-color-light)
 }
 
 ::-webkit-scrollbar {
@@ -1329,7 +1329,7 @@ div[class*=language-].line-numbers-mode {
     border-bottom: 1px solid var(--border-color);
     background-color: var(--bg-color);
     color: var(--text-color);
-    transition: border-color var(--xb-transition-duration), background-color var(--xb-transition-duration);
+    transition: border-color var(--s-transition-duration), background-color var(--s-transition-duration);
     position: sticky;
     top: 0;
     left: 0;
@@ -1481,7 +1481,7 @@ div[class*=language-].line-numbers-mode {
 .toc-wrapper .toc-content .toc-items .toc-item .toc-link {
     position: relative;
     color: var(--text-color-lighter);
-    transition: color var(--xb-transition-duration)
+    transition: color var(--s-transition-duration)
 }
 
 .toc-wrapper .toc-content .toc-items .toc-item .toc-link.active {
@@ -2337,22 +2337,22 @@ svg.DocSearch-Hit-Select-Icon {
 }
 
 :root {
-    --text-color: var(--xb-text-color-primary);
-    --text-color-light: var(--xb-text-color-regular);
-    --text-color-lighter: var(--xb-text-color-secondary);
-    --brand-color: var(--xb-color-primary);
-    --brand-color-light: var(--xb-color-primary-light-1);
-    --bg-brand-color: var(--xb-color-primary-light-9);
-    --bg-color: var(--xb-bg-color);
+    --text-color: var(--s-text-color-primary);
+    --text-color-light: var(--s-text-color-regular);
+    --text-color-lighter: var(--s-text-color-secondary);
+    --brand-color: var(--s-color-primary);
+    --brand-color-light: var(--s-color-primary-light-1);
+    --bg-brand-color: var(--s-color-primary-light-9);
+    --bg-color: var(--s-bg-color);
     --bg-color-soft: #fafafa;
     --bg-color-mute: #f2f2f2;
-    --border-color: var(--xb-border-color);
-    --border-color-light: var(--xb-border-color-lighter);
+    --border-color: var(--s-border-color);
+    --border-color-light: var(--s-border-color-lighter);
     --font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --font-family-mono: "JetBrains Mono", source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-    --success-color: var(--xb-color-success);
-    --warning-color: var(--xb-color-warning);
-    --danger-color: var(--xb-color-danger);
+    --success-color: var(--s-color-success);
+    --warning-color: var(--s-color-warning);
+    --danger-color: var(--s-color-danger);
     --header-height: 55px;
     --nav-height: 55px;
     --vp-screen-max-width: 1376px;
@@ -2367,15 +2367,15 @@ svg.DocSearch-Hit-Select-Icon {
     --sidebar-z-index: 40;
     --overlay-z-index: 30;
     --code-line-height: 1.4;
-    --code-font-size: var(--xb-font-size-base);
-    --code-bg-color: var(--xb-fill-color-light);
+    --code-font-size: var(--s-font-size-base);
+    --code-bg-color: var(--s-fill-color-light);
     --code-text-color: var(--text-color);
     --code-font-family: var(--font-family-mono);
     --docsearch-primary-color: var(--brand-color);
-    --docsearch-searchbox-background: var(--xb-bg-color);
-    --block-tip-bg-color: rgba(var(--xb-color-primary-rgb), .1);
-    --block-warning-bg-color: rgba(var(--xb-color-danger-rgb), .1);
-    --link-active-bg-color: rgba(var(--xb-color-primary-rgb), .1)
+    --docsearch-searchbox-background: var(--s-bg-color);
+    --block-tip-bg-color: rgba(var(--s-color-primary-rgb), .1);
+    --block-warning-bg-color: rgba(var(--s-color-danger-rgb), .1);
+    --link-active-bg-color: rgba(var(--s-color-primary-rgb), .1)
 }
 
 .dark {
@@ -2431,7 +2431,7 @@ svg.DocSearch-Hit-Select-Icon {
     font-size: 14px;
     font-weight: 500;
     color: var(--text-color);
-    transition: color var(--xb-transition-duration);
+    transition: color var(--s-transition-duration);
     border-bottom: 2px solid transparent
 }
 
@@ -2454,7 +2454,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 
 .dark-icon[data-v-3de418c2], .light-icon[data-v-3de418c2] {
-    transition: color var(--xb-transition-duration), opacity var(--xb-transition-duration)
+    transition: color var(--s-transition-duration), opacity var(--s-transition-duration)
 }
 
 .light-icon[data-v-3de418c2] {
@@ -2480,22 +2480,22 @@ svg.DocSearch-Hit-Select-Icon {
 }
 
 [data-v-2c91dfb8]:root {
-    --text-color: var(--xb-text-color-primary);
-    --text-color-light: var(--xb-text-color-regular);
-    --text-color-lighter: var(--xb-text-color-secondary);
-    --brand-color: var(--xb-color-primary);
-    --brand-color-light: var(--xb-color-primary-light-1);
-    --bg-brand-color: var(--xb-color-primary-light-9);
-    --bg-color: var(--xb-bg-color);
+    --text-color: var(--s-text-color-primary);
+    --text-color-light: var(--s-text-color-regular);
+    --text-color-lighter: var(--s-text-color-secondary);
+    --brand-color: var(--s-color-primary);
+    --brand-color-light: var(--s-color-primary-light-1);
+    --bg-brand-color: var(--s-color-primary-light-9);
+    --bg-color: var(--s-bg-color);
     --bg-color-soft: #fafafa;
     --bg-color-mute: #f2f2f2;
-    --border-color: var(--xb-border-color);
-    --border-color-light: var(--xb-border-color-lighter);
+    --border-color: var(--s-border-color);
+    --border-color-light: var(--s-border-color-lighter);
     --font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --font-family-mono: "JetBrains Mono", source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-    --success-color: var(--xb-color-success);
-    --warning-color: var(--xb-color-warning);
-    --danger-color: var(--xb-color-danger);
+    --success-color: var(--s-color-success);
+    --warning-color: var(--s-color-warning);
+    --danger-color: var(--s-color-danger);
     --header-height: 55px;
     --nav-height: 55px;
     --vp-screen-max-width: 1376px;
@@ -2510,15 +2510,15 @@ svg.DocSearch-Hit-Select-Icon {
     --sidebar-z-index: 40;
     --overlay-z-index: 30;
     --code-line-height: 1.4;
-    --code-font-size: var(--xb-font-size-base);
-    --code-bg-color: var(--xb-fill-color-light);
+    --code-font-size: var(--s-font-size-base);
+    --code-bg-color: var(--s-fill-color-light);
     --code-text-color: var(--text-color);
     --code-font-family: var(--font-family-mono);
     --docsearch-primary-color: var(--brand-color);
-    --docsearch-searchbox-background: var(--xb-bg-color);
-    --block-tip-bg-color: rgba(var(--xb-color-primary-rgb), .1);
-    --block-warning-bg-color: rgba(var(--xb-color-danger-rgb), .1);
-    --link-active-bg-color: rgba(var(--xb-color-primary-rgb), .1)
+    --docsearch-searchbox-background: var(--s-bg-color);
+    --block-tip-bg-color: rgba(var(--s-color-primary-rgb), .1);
+    --block-warning-bg-color: rgba(var(--s-color-danger-rgb), .1);
+    --link-active-bg-color: rgba(var(--s-color-primary-rgb), .1)
 }
 
 .dark[data-v-2c91dfb8] {
@@ -2529,7 +2529,7 @@ svg.DocSearch-Hit-Select-Icon {
 .theme-toggler-content[data-v-2c91dfb8] {
     background-color: var(--bg-color);
     color: var(--text-color);
-    transition: border-color var(--xb-transition-duration), background-color var(--xb-transition-duration);
+    transition: border-color var(--s-transition-duration), background-color var(--s-transition-duration);
     display: none;
     border-radius: 50%;
     height: 20px;
@@ -2543,22 +2543,22 @@ svg.DocSearch-Hit-Select-Icon {
 }
 
 [data-v-1e752d22]:root {
-    --text-color: var(--xb-text-color-primary);
-    --text-color-light: var(--xb-text-color-regular);
-    --text-color-lighter: var(--xb-text-color-secondary);
-    --brand-color: var(--xb-color-primary);
-    --brand-color-light: var(--xb-color-primary-light-1);
-    --bg-brand-color: var(--xb-color-primary-light-9);
-    --bg-color: var(--xb-bg-color);
+    --text-color: var(--s-text-color-primary);
+    --text-color-light: var(--s-text-color-regular);
+    --text-color-lighter: var(--s-text-color-secondary);
+    --brand-color: var(--s-color-primary);
+    --brand-color-light: var(--s-color-primary-light-1);
+    --bg-brand-color: var(--s-color-primary-light-9);
+    --bg-color: var(--s-bg-color);
     --bg-color-soft: #fafafa;
     --bg-color-mute: #f2f2f2;
-    --border-color: var(--xb-border-color);
-    --border-color-light: var(--xb-border-color-lighter);
+    --border-color: var(--s-border-color);
+    --border-color-light: var(--s-border-color-lighter);
     --font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --font-family-mono: "JetBrains Mono", source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-    --success-color: var(--xb-color-success);
-    --warning-color: var(--xb-color-warning);
-    --danger-color: var(--xb-color-danger);
+    --success-color: var(--s-color-success);
+    --warning-color: var(--s-color-warning);
+    --danger-color: var(--s-color-danger);
     --header-height: 55px;
     --nav-height: 55px;
     --vp-screen-max-width: 1376px;
@@ -2573,15 +2573,15 @@ svg.DocSearch-Hit-Select-Icon {
     --sidebar-z-index: 40;
     --overlay-z-index: 30;
     --code-line-height: 1.4;
-    --code-font-size: var(--xb-font-size-base);
-    --code-bg-color: var(--xb-fill-color-light);
+    --code-font-size: var(--s-font-size-base);
+    --code-bg-color: var(--s-fill-color-light);
     --code-text-color: var(--text-color);
     --code-font-family: var(--font-family-mono);
     --docsearch-primary-color: var(--brand-color);
-    --docsearch-searchbox-background: var(--xb-bg-color);
-    --block-tip-bg-color: rgba(var(--xb-color-primary-rgb), .1);
-    --block-warning-bg-color: rgba(var(--xb-color-danger-rgb), .1);
-    --link-active-bg-color: rgba(var(--xb-color-primary-rgb), .1)
+    --docsearch-searchbox-background: var(--s-bg-color);
+    --block-tip-bg-color: rgba(var(--s-color-primary-rgb), .1);
+    --block-warning-bg-color: rgba(var(--s-color-danger-rgb), .1);
+    --link-active-bg-color: rgba(var(--s-color-primary-rgb), .1)
 }
 
 .dark[data-v-1e752d22] {
@@ -2635,7 +2635,7 @@ svg.DocSearch-Hit-Select-Icon {
     font-weight: 500;
     line-height: 24px;
     color: var(--text-color);
-    transition: color var(--xb-transition-duration)
+    transition: color var(--s-transition-duration)
 }
 
 .is-menu-link.active[data-v-4768c412] {
@@ -2664,7 +2664,7 @@ svg.DocSearch-Hit-Select-Icon {
 }
 
 .translation-toggler .toggle-icon[data-v-e7bca07c] {
-    transition: transform var(--xb-transition-duration);
+    transition: transform var(--s-transition-duration);
     transform: rotate(180deg)
 }
 
@@ -2782,22 +2782,22 @@ svg.DocSearch-Hit-Select-Icon {
 }
 
 [data-v-1caaffb8]:root {
-    --text-color: var(--xb-text-color-primary);
-    --text-color-light: var(--xb-text-color-regular);
-    --text-color-lighter: var(--xb-text-color-secondary);
-    --brand-color: var(--xb-color-primary);
-    --brand-color-light: var(--xb-color-primary-light-1);
-    --bg-brand-color: var(--xb-color-primary-light-9);
-    --bg-color: var(--xb-bg-color);
+    --text-color: var(--s-text-color-primary);
+    --text-color-light: var(--s-text-color-regular);
+    --text-color-lighter: var(--s-text-color-secondary);
+    --brand-color: var(--s-color-primary);
+    --brand-color-light: var(--s-color-primary-light-1);
+    --bg-brand-color: var(--s-color-primary-light-9);
+    --bg-color: var(--s-bg-color);
     --bg-color-soft: #fafafa;
     --bg-color-mute: #f2f2f2;
-    --border-color: var(--xb-border-color);
-    --border-color-light: var(--xb-border-color-lighter);
+    --border-color: var(--s-border-color);
+    --border-color-light: var(--s-border-color-lighter);
     --font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --font-family-mono: "JetBrains Mono", source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-    --success-color: var(--xb-color-success);
-    --warning-color: var(--xb-color-warning);
-    --danger-color: var(--xb-color-danger);
+    --success-color: var(--s-color-success);
+    --warning-color: var(--s-color-warning);
+    --danger-color: var(--s-color-danger);
     --header-height: 55px;
     --nav-height: 55px;
     --vp-screen-max-width: 1376px;
@@ -2812,15 +2812,15 @@ svg.DocSearch-Hit-Select-Icon {
     --sidebar-z-index: 40;
     --overlay-z-index: 30;
     --code-line-height: 1.4;
-    --code-font-size: var(--xb-font-size-base);
-    --code-bg-color: var(--xb-fill-color-light);
+    --code-font-size: var(--s-font-size-base);
+    --code-bg-color: var(--s-fill-color-light);
     --code-text-color: var(--text-color);
     --code-font-family: var(--font-family-mono);
     --docsearch-primary-color: var(--brand-color);
-    --docsearch-searchbox-background: var(--xb-bg-color);
-    --block-tip-bg-color: rgba(var(--xb-color-primary-rgb), .1);
-    --block-warning-bg-color: rgba(var(--xb-color-danger-rgb), .1);
-    --link-active-bg-color: rgba(var(--xb-color-primary-rgb), .1)
+    --docsearch-searchbox-background: var(--s-bg-color);
+    --block-tip-bg-color: rgba(var(--s-color-primary-rgb), .1);
+    --block-warning-bg-color: rgba(var(--s-color-danger-rgb), .1);
+    --link-active-bg-color: rgba(var(--s-color-primary-rgb), .1)
 }
 
 .dark[data-v-1caaffb8] {
@@ -2847,22 +2847,22 @@ svg.DocSearch-Hit-Select-Icon {
 }
 
 [data-v-d1dc05ac]:root {
-    --text-color: var(--xb-text-color-primary);
-    --text-color-light: var(--xb-text-color-regular);
-    --text-color-lighter: var(--xb-text-color-secondary);
-    --brand-color: var(--xb-color-primary);
-    --brand-color-light: var(--xb-color-primary-light-1);
-    --bg-brand-color: var(--xb-color-primary-light-9);
-    --bg-color: var(--xb-bg-color);
+    --text-color: var(--s-text-color-primary);
+    --text-color-light: var(--s-text-color-regular);
+    --text-color-lighter: var(--s-text-color-secondary);
+    --brand-color: var(--s-color-primary);
+    --brand-color-light: var(--s-color-primary-light-1);
+    --bg-brand-color: var(--s-color-primary-light-9);
+    --bg-color: var(--s-bg-color);
     --bg-color-soft: #fafafa;
     --bg-color-mute: #f2f2f2;
-    --border-color: var(--xb-border-color);
-    --border-color-light: var(--xb-border-color-lighter);
+    --border-color: var(--s-border-color);
+    --border-color-light: var(--s-border-color-lighter);
     --font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --font-family-mono: "JetBrains Mono", source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-    --success-color: var(--xb-color-success);
-    --warning-color: var(--xb-color-warning);
-    --danger-color: var(--xb-color-danger);
+    --success-color: var(--s-color-success);
+    --warning-color: var(--s-color-warning);
+    --danger-color: var(--s-color-danger);
     --header-height: 55px;
     --nav-height: 55px;
     --vp-screen-max-width: 1376px;
@@ -2877,15 +2877,15 @@ svg.DocSearch-Hit-Select-Icon {
     --sidebar-z-index: 40;
     --overlay-z-index: 30;
     --code-line-height: 1.4;
-    --code-font-size: var(--xb-font-size-base);
-    --code-bg-color: var(--xb-fill-color-light);
+    --code-font-size: var(--s-font-size-base);
+    --code-bg-color: var(--s-fill-color-light);
     --code-text-color: var(--text-color);
     --code-font-family: var(--font-family-mono);
     --docsearch-primary-color: var(--brand-color);
-    --docsearch-searchbox-background: var(--xb-bg-color);
-    --block-tip-bg-color: rgba(var(--xb-color-primary-rgb), .1);
-    --block-warning-bg-color: rgba(var(--xb-color-danger-rgb), .1);
-    --link-active-bg-color: rgba(var(--xb-color-primary-rgb), .1)
+    --docsearch-searchbox-background: var(--s-bg-color);
+    --block-tip-bg-color: rgba(var(--s-color-primary-rgb), .1);
+    --block-warning-bg-color: rgba(var(--s-color-danger-rgb), .1);
+    --link-active-bg-color: rgba(var(--s-color-primary-rgb), .1)
 }
 
 .dark[data-v-d1dc05ac] {
@@ -3041,7 +3041,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .example[data-v-00d012c9] {
     border: 1px solid var(--border-color);
-    border-radius: var(--xb-border-radius-base)
+    border-radius: var(--s-border-radius-base)
 }
 
 .example .op-btns[data-v-00d012c9] {
@@ -3095,7 +3095,7 @@ svg.DocSearch-Hit-Select-Icon {
 }
 
 .example-float-control[data-v-00d012c9]:hover {
-    color: var(--xb-color-primary);
+    color: var(--s-color-primary);
     background-color: #f9fafc
 }
 
@@ -3138,8 +3138,8 @@ svg.DocSearch-Hit-Select-Icon {
     overflow: hidden;
     list-style: none;
     padding: 0 !important;
-    border-top: 1px solid var(--xb-border-color);
-    border-left: 1px solid var(--xb-border-color);
+    border-top: 1px solid var(--s-border-color);
+    border-left: 1px solid var(--s-border-color);
     border-radius: 4px;
     display: grid;
     grid-template-columns:repeat(7, 1fr)
@@ -3147,16 +3147,16 @@ svg.DocSearch-Hit-Select-Icon {
 
 .demo-icon-list .icon-item[data-v-ba633cb8] {
     text-align: center;
-    color: var(--xb-text-color-regular);
+    color: var(--s-text-color-regular);
     height: 90px;
     font-size: 13px;
-    border-right: 1px solid var(--xb-border-color);
-    border-bottom: 1px solid var(--xb-border-color);
-    transition: background-color var(--xb-transition-duration)
+    border-right: 1px solid var(--s-border-color);
+    border-bottom: 1px solid var(--s-border-color);
+    transition: background-color var(--s-transition-duration)
 }
 
 .demo-icon-list .icon-item[data-v-ba633cb8]:hover {
-    background-color: var(--xb-border-color-extra-light);
+    background-color: var(--s-border-color-extra-light);
     color: var(--brand-color-light)
 }
 
@@ -3433,7 +3433,7 @@ svg.DocSearch-Hit-Select-Icon {
     position: absolute;
     right: -12px;
     bottom: 8px;
-    background: var(--xb-color-primary);
+    background: var(--s-color-primary);
     height: 8px;
     width: 8px;
     border-radius: 100%
@@ -3475,7 +3475,7 @@ svg.DocSearch-Hit-Select-Icon {
 }
 
 .home-page .count-down .cd-num {
-    color: var(--xb-color-primary);
+    color: var(--s-color-primary);
     font-size: 78px;
     font-weight: 700
 }
@@ -4289,7 +4289,7 @@ svg.DocSearch-Hit-Select-Icon {
     text-align: center;
     height: 400px;
     border-radius: 4px;
-    background: var(--xb-color-primary-light-9)
+    background: var(--s-color-primary-light-9)
 }
 
 .demo-basic {
@@ -4299,7 +4299,7 @@ svg.DocSearch-Hit-Select-Icon {
 .demo-basic .sub-title {
     margin-bottom: 10px;
     font-size: 14px;
-    color: var(--xb-text-color-secondary)
+    color: var(--s-text-color-secondary)
 }
 
 .demo-basic .demo-basic--circle, .demo-basic .demo-basic--square {
@@ -4309,7 +4309,7 @@ svg.DocSearch-Hit-Select-Icon {
 }
 
 .demo-basic .block:not(:last-child) {
-    border-right: 1px solid var(--xb-border-color)
+    border-right: 1px solid var(--s-border-color)
 }
 
 .demo-basic .block {
@@ -4332,7 +4332,7 @@ svg.DocSearch-Hit-Select-Icon {
 .demo-fit .title {
     margin-bottom: 10px;
     font-size: 14px;
-    color: var(--xb-text-color-secondary)
+    color: var(--s-text-color-secondary)
 }
 
 .demo-type[data-v-c908985e] {
@@ -4345,7 +4345,7 @@ svg.DocSearch-Hit-Select-Icon {
 }
 
 .demo-type > div[data-v-c908985e]:not(:last-child) {
-    border-right: 1px solid var(--xb-border-color)
+    border-right: 1px solid var(--s-border-color)
 }
 
 .item[data-v-f6d064ea] {
@@ -4369,21 +4369,21 @@ svg.DocSearch-Hit-Select-Icon {
 .demo-border .line div[data-v-a65b4710] {
     width: 100%;
     height: 0;
-    border-top: 1px solid var(--xb-border-color)
+    border-top: 1px solid var(--s-border-color)
 }
 
 .demo-border .line .dashed[data-v-a65b4710] {
-    border-top: 2px dashed var(--xb-border-color)
+    border-top: 2px dashed var(--s-border-color)
 }
 
 .demo-radius .title[data-v-48a70b64] {
-    color: var(--xb-text-color-regular);
+    color: var(--s-text-color-regular);
     font-size: 18px;
     margin: 10px 0
 }
 
 .demo-radius .value[data-v-48a70b64] {
-    color: var(--xb-text-color-primary);
+    color: var(--s-text-color-primary);
     font-size: 16px;
     margin: 10px 0
 }
@@ -4391,7 +4391,7 @@ svg.DocSearch-Hit-Select-Icon {
 .demo-radius .radius[data-v-48a70b64] {
     height: 40px;
     width: 70%;
-    border: 1px solid var(--xb-border-color);
+    border: 1px solid var(--s-border-color);
     border-radius: 0;
     margin-top: 20px
 }
@@ -4403,7 +4403,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .demo-shadow-text[data-v-2ea5e27b] {
     line-height: 50px;
-    color: var(--xb-text-color-regular);
+    color: var(--s-text-color-regular);
     font-size: 14px
 }
 
@@ -4537,7 +4537,7 @@ svg.DocSearch-Hit-Select-Icon {
 .demo-date-picker .block[data-v-a499ec8e] {
     padding: 30px 0;
     text-align: center;
-    border-right: solid 1px var(--xb-border-color);
+    border-right: solid 1px var(--s-border-color);
     flex: 1
 }
 
@@ -4547,7 +4547,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .demo-date-picker .demonstration[data-v-a499ec8e] {
     display: block;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px;
     margin-bottom: 20px
 }
@@ -4562,7 +4562,7 @@ svg.DocSearch-Hit-Select-Icon {
 .demo-date-picker .block[data-v-22a02245] {
     padding: 30px 0;
     text-align: center;
-    border-right: solid 1px var(--xb-border-color);
+    border-right: solid 1px var(--s-border-color);
     flex: 1
 }
 
@@ -4572,7 +4572,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .demo-date-picker .demonstration[data-v-22a02245] {
     display: block;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px;
     margin-bottom: 20px
 }
@@ -4587,7 +4587,7 @@ svg.DocSearch-Hit-Select-Icon {
 .demo-date-picker .block[data-v-6c040b49] {
     padding: 30px 0;
     text-align: center;
-    border-right: solid 1px var(--xb-border-color);
+    border-right: solid 1px var(--s-border-color);
     flex: 1
 }
 
@@ -4597,7 +4597,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .demo-date-picker .demonstration[data-v-6c040b49] {
     display: block;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px;
     margin-bottom: 20px
 }
@@ -4612,7 +4612,7 @@ svg.DocSearch-Hit-Select-Icon {
 .demo-date-picker .block[data-v-a5368916] {
     padding: 30px 0;
     text-align: center;
-    border-right: solid 1px var(--xb-border-color);
+    border-right: solid 1px var(--s-border-color);
     flex: 1
 }
 
@@ -4630,7 +4630,7 @@ svg.DocSearch-Hit-Select-Icon {
 .demo-date-picker .block[data-v-38bef54f] {
     padding: 30px 0;
     text-align: center;
-    border-right: solid 1px var(--xb-border-color);
+    border-right: solid 1px var(--s-border-color);
     flex: 1
 }
 
@@ -4640,7 +4640,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .demo-date-picker .demonstration[data-v-38bef54f] {
     display: block;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px;
     margin-bottom: 20px
 }
@@ -4655,7 +4655,7 @@ svg.DocSearch-Hit-Select-Icon {
 .demo-date-picker .block[data-v-29f1362b] {
     padding: 30px 0;
     text-align: center;
-    border-right: solid 1px var(--xb-border-color);
+    border-right: solid 1px var(--s-border-color);
     flex: 1
 }
 
@@ -4665,7 +4665,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .demo-date-picker .demonstration[data-v-29f1362b] {
     display: block;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px;
     margin-bottom: 20px
 }
@@ -4680,7 +4680,7 @@ svg.DocSearch-Hit-Select-Icon {
 .demo-date-picker .block[data-v-1600f9f8] {
     padding: 30px 0;
     text-align: center;
-    border-right: solid 1px var(--xb-border-color);
+    border-right: solid 1px var(--s-border-color);
     flex: 1
 }
 
@@ -4690,7 +4690,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .demo-date-picker .demonstration[data-v-1600f9f8] {
     display: block;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px;
     margin-bottom: 20px
 }
@@ -4705,7 +4705,7 @@ svg.DocSearch-Hit-Select-Icon {
 .demo-date-picker .block[data-v-fb2c7272] {
     padding: 30px 0;
     text-align: center;
-    border-right: solid 1px var(--xb-border-color);
+    border-right: solid 1px var(--s-border-color);
     flex: 1
 }
 
@@ -4715,7 +4715,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .demo-date-picker .container[data-v-fb2c7272] {
     flex: 1;
-    border-right: solid 1px var(--xb-border-color)
+    border-right: solid 1px var(--s-border-color)
 }
 
 .demo-date-picker .container .block[data-v-fb2c7272] {
@@ -4723,7 +4723,7 @@ svg.DocSearch-Hit-Select-Icon {
 }
 
 .demo-date-picker .container .block[data-v-fb2c7272]:last-child {
-    border-top: solid 1px var(--xb-border-color)
+    border-top: solid 1px var(--s-border-color)
 }
 
 .demo-date-picker .container[data-v-fb2c7272]:last-child {
@@ -4732,7 +4732,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .demo-date-picker .demonstration[data-v-fb2c7272] {
     display: block;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px;
     margin-bottom: 20px
 }
@@ -4747,7 +4747,7 @@ svg.DocSearch-Hit-Select-Icon {
 .demo-datetime-picker .block[data-v-09797907] {
     padding: 30px 0;
     text-align: center;
-    border-right: solid 1px var(--xb-border-color);
+    border-right: solid 1px var(--s-border-color);
     flex: 1
 }
 
@@ -4757,7 +4757,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .demo-datetime-picker .demonstration[data-v-09797907] {
     display: block;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px;
     margin-bottom: 20px
 }
@@ -4765,7 +4765,7 @@ svg.DocSearch-Hit-Select-Icon {
 .block[data-v-bb894d20] {
     padding: 30px 0;
     text-align: center;
-    border-right: solid 1px var(--xb-border-color);
+    border-right: solid 1px var(--s-border-color);
     flex: 1
 }
 
@@ -4775,7 +4775,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .block .demonstration[data-v-bb894d20] {
     display: block;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px;
     margin-bottom: 20px
 }
@@ -4790,7 +4790,7 @@ svg.DocSearch-Hit-Select-Icon {
 .demo-datetime-picker .block[data-v-f259fa6c] {
     padding: 30px 0;
     text-align: center;
-    border-right: solid 1px var(--xb-border-color);
+    border-right: solid 1px var(--s-border-color);
     flex: 1
 }
 
@@ -4800,7 +4800,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .demo-datetime-picker .demonstration[data-v-f259fa6c] {
     display: block;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px;
     margin-bottom: 20px
 }
@@ -4808,7 +4808,7 @@ svg.DocSearch-Hit-Select-Icon {
 .block[data-v-a4df4814] {
     padding: 30px 0;
     text-align: center;
-    border-right: solid 1px var(--xb-border-color);
+    border-right: solid 1px var(--s-border-color);
     flex: 1
 }
 
@@ -4818,17 +4818,17 @@ svg.DocSearch-Hit-Select-Icon {
 
 .block .demonstration[data-v-a4df4814] {
     display: block;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px;
     margin-bottom: 20px
 }
 
 .my-label[data-v-7131326b] {
-    background: var(--xb-color-success-light-9)
+    background: var(--s-color-success-light-9)
 }
 
 .my-content[data-v-7131326b] {
-    background: var(--xb-color-danger-light-9)
+    background: var(--s-color-danger-light-9)
 }
 
 .cell-item[data-v-678b3072] {
@@ -4846,7 +4846,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .block-col-2 .demonstration[data-v-740e98ab] {
     display: block;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px;
     margin-bottom: 20px
 }
@@ -4854,7 +4854,7 @@ svg.DocSearch-Hit-Select-Icon {
 .demo-image .block[data-v-8da2c340] {
     padding: 30px 0;
     text-align: center;
-    border-right: solid 1px var(--xb-border-color);
+    border-right: solid 1px var(--s-border-color);
     display: inline-block;
     width: 20%;
     box-sizing: border-box;
@@ -4867,7 +4867,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .demo-image .demonstration[data-v-8da2c340] {
     display: block;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px;
     margin-bottom: 20px
 }
@@ -4880,7 +4880,7 @@ svg.DocSearch-Hit-Select-Icon {
 .demo-image__error .block[data-v-493ec628] {
     padding: 30px 0;
     text-align: center;
-    border-right: solid 1px var(--xb-border-color);
+    border-right: solid 1px var(--s-border-color);
     display: inline-block;
     width: 49%;
     box-sizing: border-box;
@@ -4889,7 +4889,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .demo-image__error .demonstration[data-v-493ec628] {
     display: block;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px;
     margin-bottom: 20px
 }
@@ -4901,14 +4901,14 @@ svg.DocSearch-Hit-Select-Icon {
     width: 100%;
     height: 100%;
     background: #f5f7fa;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 30px
 }
 
 .demo-image__placeholder .block[data-v-0d610c03] {
     padding: 30px 0;
     text-align: center;
-    border-right: solid 1px var(--xb-border-color);
+    border-right: solid 1px var(--s-border-color);
     display: inline-block;
     width: 49%;
     box-sizing: border-box;
@@ -4917,7 +4917,7 @@ svg.DocSearch-Hit-Select-Icon {
 
 .demo-image__placeholder .demonstration[data-v-0d610c03] {
     display: block;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px;
     margin-bottom: 20px
 }
@@ -4929,7 +4929,7 @@ svg.DocSearch-Hit-Select-Icon {
     width: 100%;
     height: 100%;
     background: #f5f7fa;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px
 }
 
@@ -4950,9 +4950,9 @@ svg.DocSearch-Hit-Select-Icon {
     align-items: center;
     justify-content: center;
     height: 50px;
-    background: var(--xb-color-primary-light-9);
+    background: var(--s-color-primary-light-9);
     margin: 10px;
-    color: var(--xb-color-primary)
+    color: var(--s-color-primary)
 }
 
 .infinite-list .infinite-list-item + .list-item {
@@ -4975,8 +4975,8 @@ svg.DocSearch-Hit-Select-Icon {
     align-items: center;
     justify-content: center;
     height: 50px;
-    background: var(--xb-color-danger-light-9);
-    color: var(--xb-color-danger)
+    background: var(--s-color-danger-light-9);
+    color: var(--s-color-danger)
 }
 
 .infinite-list-wrapper .list-item + .list-item {
@@ -5061,7 +5061,7 @@ body {
 .demo-rate-block[data-v-b1410e66] {
     padding: 30px 0;
     text-align: center;
-    border-right: solid 1px var(--xb-border-color);
+    border-right: solid 1px var(--s-border-color);
     display: inline-block;
     width: 49%;
     box-sizing: border-box
@@ -5073,7 +5073,7 @@ body {
 
 .demo-rate-block .demonstration[data-v-b1410e66] {
     display: block;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     font-size: 14px;
     margin-bottom: 20px
 }
@@ -5086,8 +5086,8 @@ body {
     margin: 10px;
     text-align: center;
     border-radius: 4px;
-    background: var(--xb-color-primary-light-9);
-    color: var(--xb-color-primary)
+    background: var(--s-color-primary-light-9);
+    color: var(--s-color-primary)
 }
 
 .scrollbar-flex-content[data-v-7b938c1c] {
@@ -5104,8 +5104,8 @@ body {
     margin: 10px;
     text-align: center;
     border-radius: 4px;
-    background: var(--xb-color-danger-light-9);
-    color: var(--xb-color-danger)
+    background: var(--s-color-danger-light-9);
+    color: var(--s-color-danger)
 }
 
 .scrollbar-demo-item[data-v-714fde6d] {
@@ -5116,8 +5116,8 @@ body {
     margin: 10px;
     text-align: center;
     border-radius: 4px;
-    background: var(--xb-color-primary-light-9);
-    color: var(--xb-color-primary)
+    background: var(--s-color-primary-light-9);
+    color: var(--s-color-primary)
 }
 
 
@@ -5129,8 +5129,8 @@ body {
     margin: 10px;
     text-align: center;
     border-radius: 4px;
-    background: var(--xb-color-primary-light-9);
-    color: var(--xb-color-primary)
+    background: var(--s-color-primary-light-9);
+    color: var(--s-color-primary)
 }
 
 .slider-demo-block[data-v-70cd869b] {
@@ -5141,7 +5141,7 @@ body {
 
 .slider-demo-block .demonstration[data-v-70cd869b] {
     font-size: 14px;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     line-height: 44px;
     flex: 1;
     overflow: hidden;
@@ -5158,7 +5158,7 @@ body {
 
 .slider-demo-block .demonstration[data-v-82a694b2] {
     font-size: 14px;
-    color: var(--xb-text-color-secondary);
+    color: var(--s-text-color-secondary);
     line-height: 44px;
     flex: 1;
     overflow: hidden;
@@ -5230,7 +5230,7 @@ body {
 }
 
 .singleton-tooltip {
-    transition: transform .3s var(--xb-transition-function-fast-bezier)
+    transition: transform .3s var(--s-transition-function-fast-bezier)
 }
 
 .transfer-footer {
@@ -5239,12 +5239,12 @@ body {
 }
 
 .prefix[data-v-612282da] {
-    color: var(--xb-color-primary);
+    color: var(--s-color-primary);
     margin-right: 10px
 }
 
 .prefix.is-leaf[data-v-612282da] {
-    color: var(--xb-color-success)
+    color: var(--s-color-success)
 }
 
 .custom-tree-node {
@@ -5319,7 +5319,7 @@ details[data-v-1cd4ada7] {
     margin: 5px 0;
     height: 114px;
     box-sizing: border-box;
-    color: var(--xb-color-white);
+    color: var(--s-color-white);
     font-size: 14px
 }
 
@@ -5337,7 +5337,7 @@ details[data-v-1cd4ada7] {
 }
 
 .demo-color-box .bg-color-sub .bg-blue-sub-item:first-child {
-    border-radius: 0 0 0 var(--xb-border-radius-base)
+    border-radius: 0 0 0 var(--s-border-radius-base)
 }
 
 .demo-color-box .bg-color-sub .bg-secondary-sub-item {
@@ -5346,11 +5346,11 @@ details[data-v-1cd4ada7] {
 }
 
 .demo-color-box .bg-color-sub .bg-secondary-sub-item:first-child {
-    border-radius: 0 0 0 var(--xb-border-radius-base)
+    border-radius: 0 0 0 var(--s-border-radius-base)
 }
 
 .demo-color-box-lite {
-    color: var(--xb-text-color-primary)
+    color: var(--s-text-color-primary)
 }
 
 .demo-color-box-lite .value {
@@ -5360,7 +5360,7 @@ details[data-v-1cd4ada7] {
 }
 
 .bg-transparent {
-    color: var(--xb-text-color-primary);
+    color: var(--s-text-color-primary);
     background-image: linear-gradient(45deg, #f9f9fa 25%, transparent 25%), linear-gradient(135deg, #f9f9fa 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #f9f9fa 75%), linear-gradient(135deg, transparent 75%, #f9f9fa 75%);
     background-size: 20px 20px;
     background-position: 0px 0px, 10px 0px, 10px -10px, 0px 10px

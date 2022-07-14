@@ -1,14 +1,14 @@
 <template>
-    <xb-button>
+    <s-button>
         <template #icon>
-            <xb-icon name="checkbox-marked-circle" />
+            <s-icon name="checkbox-marked-circle" />
         </template>
         图标按钮
-    </xb-button>
-    <xb-button icon-placement="right">
+    </s-button>
+    <s-button icon-placement="right">
         <template #icon>
-            <xb-icon name="heart-half-full" />
+            <s-icon name="heart-half-full" />
         </template>
         图标按钮
-    </xb-button>
+    </s-button>
 </template>

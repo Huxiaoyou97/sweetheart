@@ -7,7 +7,8 @@
     "typings": "types/index.d.ts",
     "scripts": {
         "create": "sweetheart-design-script create button",
-        "compile": "sweetheart-design-script compile"
+        "compile": "sweetheart-design-script compile",
+        "test": "sweetheart-design-script jest"
     },
     "peerDependencies": {
         "vue": "^3.2.0"
@@ -33,12 +34,14 @@
     },
     "devDependencies": {
         "@sweetheart-design/script": "workspace:*",
-        "@vue/runtime-core": "3.2.25",
+        "@sweetheart-design/icons": "workspace:*",
         "@vue/test-utils": "2.0.0-rc.6",
-        "clipboard": "^2.0.6",
-        "live-server": "^1.2.1",
+        "@vue/runtime-core": "3.2.25",
         "typescript": "^4.4.4",
+        "lodash-es": "^4.17.21",
+        "clipboard": "^2.0.6",
         "vue": "3.2.25",
-        "vue-router": "4.0.12"
+        "vue-router": "4.0.12",
+        "live-server": "^1.2.1"
     }
 }

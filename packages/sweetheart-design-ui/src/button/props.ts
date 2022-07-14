@@ -1,6 +1,6 @@
 import type {PropType} from 'vue'
 import useTheme, {ThemeProps} from "../../hooks/useTheme";
-import {ButtonTheme} from "./styles/light";
+import {ButtonTheme} from "./__styles__/light";
 
 function typeValidator(type: string): boolean {
     return ['default', 'primary', 'info', 'success', 'warning', 'error'].includes(type)

@@ -1,12 +1,29 @@
 {
-  "name": "@sweetheart-design/icons",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "@sweetheart-design/icons",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "bin": {
+        "sweetheart-icons": "./lib/index.js"
+    },
+    "files": [
+        "dist",
+        "lib"
+    ],
+    "keywords": [
+        "icons",
+        "svg",
+        "builder",
+        "sweetheart-design"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "commander": "^6.2.1",
+        "fs-extra": "^9.0.1",
+        "webfont": "^9.0.0"
+    },
+    "scripts": {
+        "build": "sweetheart-icons build"
+    }
 }

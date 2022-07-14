@@ -24,6 +24,7 @@ var commander_1 = require("commander");
 var create_1 = require("./commands/create");
 var compile_1 = require("./commands/compile");
 var release_1 = require("./commands/release");
+var jest_1 = require("./commands/jest");
 var program = new commander_1.Command();
 program.version("sweetheart-design-script ".concat(require('../package.json').version)).usage('<command> [options]');
 program.command('create <name>').description('创建组件目录').action(create_1.create);
@@ -34,9 +35,17 @@ program
     .action(compile_1.compile);
 program
     .command('release')
-    .option('-r --remote <remote>', 'Remote name')
-    .description('Release all packages and generate changelogs')
+    .option('-r --remote <remote>', '远程名称')
+    .description('释放所有的包并生成变更日志')
     .action(release_1.release);
+program
+    .command('jest')
+    .description('Run Jest in work directory')
+    .option('-w, --watch', 'Watch files for changes and rerun tests related to changed files')
+    .option('-wa, --watchAll', 'Watch files for changes and rerun all tests when something changes')
+    .option('-c, --component <componentName>', 'Test a specific component')
+    .option('-cc --clearCache', 'Clear test cache')
+    .action(jest_1.jest);
 program.on('command:*', function (_a) {
     var _b = __read(_a, 1), cmd = _b[0];
     program.outputHelp();

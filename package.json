@@ -23,13 +23,9 @@
     },
     "dependencies": {
         "@vitejs/plugin-vue-jsx": "1.3.5",
-        "lodash": "^4.17.21",
-        "lodash-es": "^4.17.21",
-        "seemly": "^0.3.5",
         "vite": "2.8.1",
         "vitepress": "^0.22.3",
         "vitepress-theme-demoblock": "^1.4.2",
-        "vooks": "^0.2.12",
         "vueu": "^1.0.0-security"
     }
 }

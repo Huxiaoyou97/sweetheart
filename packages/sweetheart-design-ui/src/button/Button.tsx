@@ -10,7 +10,7 @@ import {buttonProps, buttonEmits} from "./props";
 
 import "./button.less"
 import useTheme from "../../hooks/useTheme";
-import buttonLight from "./styles/light";
+import buttonLight from "./__styles__/light";
 import {createKey} from "../utils/createKey";
 import {createHoverColor, createPressedColor} from "../utils/color";
 
@@ -43,24 +43,7 @@ export default defineComponent({
             }
         })
 
-        const play = () => {
-            // if (animationTimerId !== null) {
-            //     window.clearTimeout(animationTimerId)
-            //     activeRef.value = false
-            //     animationTimerId = null
-            // }
-            // void nextTick(() => {
-            //     void selfRef.value?.offsetHeight
-            //     activeRef.value = true
-            //     animationTimerId = window.setTimeout(() => {
-            //         activeRef.value = false
-            //         animationTimerId = null
-            //     }, 1000)
-            // })
-        }
-
         const handleClick = (e: MouseEvent): void => {
-            // play()
             emit('click', e)
         }
 
@@ -74,7 +57,6 @@ export default defineComponent({
         return {
             active: activeRef,
             selfRef,
-            play,
             handleClick,
 
             cssRoot: computed(() => {

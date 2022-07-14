@@ -29,7 +29,6 @@
 </template>
 
 <script setup lang="ts">
-import {defineComponent} from "vue";
 import VPNav from './vp-nav.vue'
 import VPContent from './vp-content.vue'
 import VPSidebar from './vp-sidebar.vue'

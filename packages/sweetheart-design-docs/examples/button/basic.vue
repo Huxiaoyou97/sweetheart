@@ -1,8 +1,8 @@
 <template>
-    <xb-button>Default</xb-button>
-    <xb-button type="primary">Primary</xb-button>
-    <xb-button type="info">Info</xb-button>
-    <xb-button type="success">Success</xb-button>
-    <xb-button type="warning">Warning</xb-button>
-    <xb-button type="error">Error</xb-button>
+    <s-button>Default</s-button>
+    <s-button type="primary">Primary</s-button>
+    <s-button type="info">Info</s-button>
+    <s-button type="success">Success</s-button>
+    <s-button type="warning">Warning</s-button>
+    <s-button type="error">Error</s-button>
 </template>

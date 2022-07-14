@@ -4,17 +4,16 @@
         <div class="example">
             <div class="op-btns">
                 <!--                <span>A</span>-->
-                <!--                <xb-icon name="content-copy" @click="setSourceVisible" />-->
-                <xb-icon name="xml" @click="setSourceVisible"/>
+<!--                <s-icon name="content-copy" @click="setSourceVisible"/>-->
+                <s-icon name="xml" @click="setSourceVisible"/>
             </div>
 
-            <xb-divider margin="0"/>
+            <s-divider margin="0"/>
             <Example :file="path" :demo="formatPathDemos[path]"/>
 
-            <xb-collapse-transition>
+            <s-collapse-transition>
                 <SourceCode v-show="sourceVisible" :source="source"/>
-            </xb-collapse-transition>
-
+            </s-collapse-transition>
         </div>
     </ClientOnly>
 </template>
@@ -81,6 +80,7 @@ const copyCode = async () => {
 
 .vp-demo-txt {
     margin: 1rem 0;
+
     ::v-deep(p) {
         margin: 1rem 0 !important;
     }

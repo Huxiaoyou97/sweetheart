@@ -1,8 +1,8 @@
 <template>
-    <xb-button :loading="loading" @click="loading = !loading">
+    <s-button :loading="loading" @click="loading = !loading">
         <span v-if="!loading">戳一下</span>
         <span v-else>再戳一下</span>
-    </xb-button>
+    </s-button>
 </template>
 
 <script lang="ts" setup>

@@ -1,0 +1,12 @@
+@s-aside-width: 300px;
+
+:root {
+    --s-aside-width: @s-aside-width;
+}
+
+.s-aside {
+    overflow: auto;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: var(--s-aside-width);
+}

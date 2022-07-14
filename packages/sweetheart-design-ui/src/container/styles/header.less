@@ -1,0 +1,14 @@
+@s-header-padding: 0 20px;
+@s-header-height: 60px;
+
+:root {
+    --s-header-height: @s-header-height;
+    --s-header-padding: @s-header-padding;
+}
+
+.s-header {
+    padding: var(--s-header-padding);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    height: var(--s-header-height);
+}

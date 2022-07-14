@@ -1,9 +1,9 @@
 <template>
-    <xb-button circle>
+    <s-button circle>
         <template #icon>
-            <xb-icon name="checkbox-marked-circle" />
+            <s-icon name="checkbox-marked-circle" />
         </template>
-    </xb-button>
-    <xb-button round>圆角</xb-button>
-    <xb-button>方块</xb-button>
+    </s-button>
+    <s-button round>圆角</s-button>
+    <s-button>方块</s-button>
 </template>

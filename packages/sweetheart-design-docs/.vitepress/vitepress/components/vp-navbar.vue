@@ -2,7 +2,7 @@
     <div class="navbar-wrapper">
         <div class="container">
             <div class="logo-container">
-                <h1>新博</h1>
+                <h1>Sweetheart</h1>
             </div>
             <div class="content">
                 <VpMenu />

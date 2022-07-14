@@ -1,4 +1,4 @@
 <template>
-    <xb-button disabled>禁用状态</xb-button>
-    <xb-button type="primary" disabled>禁用状态</xb-button>
+    <s-button disabled>禁用状态</s-button>
+    <s-button type="primary" disabled>禁用状态</s-button>
 </template>

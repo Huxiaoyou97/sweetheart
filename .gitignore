@@ -33,9 +33,7 @@ packages/sweetheart-design-ui-playground/public/xy.esm.js
 packages/sweetheart-design-ui-playground/public/xy-touch-emulator.js
 packages/sweetheart-design-ui-playground/public/xy.css
 
-packages/xb-icons/dist
-
-packages/xy-vscode-extension/dist
+packages/sweetheart-design-icons/dist
 
 packages/sweetheart-design-script/generators/**/es
 packages/sweetheart-design-script/generators/**/umd

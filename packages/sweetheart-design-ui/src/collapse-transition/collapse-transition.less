@@ -1,0 +1,18 @@
+@s-transition-duration: .3s;
+
+:root {
+    --s-transition-duration: @s-transition-duration;
+}
+
+.collapse-transition {
+    transition: @s-transition-duration height ease-in-out,
+    @s-transition-duration padding-top ease-in-out,
+    @s-transition-duration padding-bottom ease-in-out !important;
+}
+
+.s-collapse-transition-leave-active,
+.s-collapse-transition-enter-active {
+    transition: @s-transition-duration max-height ease-in-out,
+    @s-transition-duration padding-top ease-in-out,
+    @s-transition-duration padding-bottom ease-in-out !important;
+}

@@ -1,0 +1,14 @@
+@s-footer-padding: 0 20px;
+@s-footer-height: 60px;
+
+:root {
+    --s-footer-height: @s-footer-height;
+    --s-footer-padding: @s-footer-padding;
+}
+
+.s-footer {
+    padding: var(--s-footer-padding);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    height: var(--s-footer-height);
+}

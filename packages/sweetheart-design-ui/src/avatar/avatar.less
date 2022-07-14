@@ -1,0 +1,45 @@
+.s-avatar {
+    width: var(--merged-size);
+    height: var(--merged-size);
+    color: #FFF;
+    font-size: var(--font-size);
+    display: inline-flex;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    --merged-color: var(--color);
+    background-color: var(--merged-color);
+    transition: border-color 0.3s var(--bezier), background-color 0.3s var(--bezier), color 0.3s var(--bezier);
+
+    .s-modal, .s-drawer {
+        --merged-color: var(--color-modal);
+    }
+
+    .s-popover:not(.s-tooltip) {
+        --merged-color: var(--color-popover);
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .s-avatar__text {
+        white-space: nowrap;
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+
+    .s-icon {
+        vertical-align: bottom;
+        font-size: calc(var(--merged-size) - 6px);
+    }
+
+    .s-avatar__text {
+        line-height: 1.25;
+    }
+}
