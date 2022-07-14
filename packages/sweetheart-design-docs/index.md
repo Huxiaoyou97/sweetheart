@@ -4,11 +4,16 @@ lang: zh-CN
 page: true
 ---
 
-<script setup>
+[//]: # (<script setup>)
 
-if (typeof window !== 'undefined') {
-  const preferredLang = localStorage.getItem('preferred_lang') || 'zh-CN';
-  window.location.pathname = `/${preferredLang}/`
-}
+[//]: # ()
+[//]: # (if &#40;typeof window !== 'undefined'&#41; {)
 
-</script>
+[//]: # (  const preferredLang = localStorage.getItem&#40;'preferred_lang'&#41; || 'zh-CN';)
+
+[//]: # (  window.location.pathname = `/${preferredLang}/`)
+
+[//]: # (})
+
+[//]: # ()
+[//]: # (</script>)

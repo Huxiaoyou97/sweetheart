@@ -6,7 +6,7 @@ import {mdPlugin} from './config/plugins'
 import type {UserConfig} from 'vitepress'
 
 export const config: UserConfig = {
-    title: 'xb-plus',
+    title: 'SweetheartDesign',
     markdown: {
         config: (md) => {
             return mdPlugin(md)

@@ -12,9 +12,9 @@
         "skipLibCheck": true,
         "baseUrl": ".",
         "paths": {
-            "@sweetheart-design/ui": ["./sweetheart-design-ui"]
+            "@sweetheart-design/ui": ["../sweetheart-design-ui"]
         },
-        "types": ["./sweetheart-design-ui/types/global.d.ts"]
+        "types": ["../sweetheart-design-ui/types/global.d.ts"]
     },
     "include": ["**/*", ".vitepress/**/*"],
     "exclude": ["node_modules"]
